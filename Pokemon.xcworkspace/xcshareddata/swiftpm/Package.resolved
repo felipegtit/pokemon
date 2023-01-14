@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "79ae25e2f2f3420b3d3ed4f0d0aa17425f06ece2"
+      }
+    },
+    {
+      "identity" : "pokemonapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kinkofer/PokemonAPI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dfb4cfbf5f91798a5c37b031b913e21a74a06289"
+      }
+    }
+  ],
+  "version" : 2
+}

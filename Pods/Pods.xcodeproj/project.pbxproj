@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0500F54ED39402FCD0D09A7030E241D7 /* LazyImage+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562EDA7CDCD29857B27CE2B72049588 /* LazyImage+Storage.swift */; };
+		215B9B58A946DDA6BB783B5E86DA23F7 /* Pods-Pokemon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C825DC26F8966A46787F303941284 /* Pods-Pokemon-dummy.m */; };
+		35623BE56F65CE861FC8D672D8DB0299 /* LazyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8D18BA073732F7F829CB031B51AEDE /* LazyImage.swift */; };
+		7E0938560C3E2927BE8462042625ADBB /* Pods-PokemonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8386C7B47C80DA555B7E755F6EDEA7 /* Pods-PokemonTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A76C9B338BC12144CEC1CCC44EB4F380 /* Pods-Pokemon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CADA7B2F38797EF3702878F6C282B2DA /* Pods-Pokemon-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACFAE3DE4E1B1648CF623F702FCA0B6D /* LazyImage+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8F20B647FA0EA95C59FB3FCE19CCC /* LazyImage+Error.swift */; };
+		AF79BC45636A535842D34267BE71226E /* LazyImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C60D841A023A9BBE10A2F300B65E9E /* LazyImage-dummy.m */; };
+		D96CC7802B2A12D1BA0A84CAB952CB52 /* LazyImage+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD1D784E405E84CECD59E6B4578B0C /* LazyImage+Loader.swift */; };
+		DE92F8257571B7EE952B18ACF1204F47 /* Pods-PokemonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D438DCEACE698B93195A6E13BA8FA8 /* Pods-PokemonTests-dummy.m */; };
+		E43E7A8B185AE01B841176F0CCB60116 /* LazyImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B1ED03C76785708966480280B13E15 /* LazyImage-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E834E97001A0F6EDC33893CC4B877F4F /* LazyImage+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C6BE9DCCD0042259C952BBE7F8E26C /* LazyImage+Network.swift */; };
+		E8AA93B4C9BEEA5510F19947DD90EABF /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D01EEF870503889386FC9E3B615B4B /* LazyImageView.swift */; };
+		F225FA00C85F67C2F335389C9DD8A00A /* LazyImage+Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70465CAE069C645A604AC789D150B856 /* LazyImage+Resizing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D436579DA7208CDCCD56A5AB5DD2FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694DC1ED7D202F62DA6DF98F6A6CEA90;
+			remoteInfo = LazyImage;
+		};
+		F0BDEDFCD7E152DAA6FEF47774634876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694DC1ED7D202F62DA6DF98F6A6CEA90;
+			remoteInfo = LazyImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DDA9BCBBB864E2A0EB624B07A163A0 /* Pods-PokemonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokemonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5874581EAE2CACE58BEBCB74797050 /* Pods-Pokemon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokemon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		126A168958C9FA4B4B011BDA7E3C8C5E /* LazyImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LazyImage.modulemap; sourceTree = "<group>"; };
+		204E82BB2FDB70F7773E476DE48C1BEA /* Pods-PokemonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokemonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2919B0601BA2DA8B1A343914C12EE334 /* LazyImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyImage.release.xcconfig; sourceTree = "<group>"; };
+		2B3A2A0EC66BE1B54B6C885B35BACEE6 /* Pods-PokemonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCBD34B975539BC8762AB9232A8FDB2 /* LazyImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-prefix.pch"; sourceTree = "<group>"; };
+		33B1ED03C76785708966480280B13E15 /* LazyImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-umbrella.h"; sourceTree = "<group>"; };
+		33C6BE9DCCD0042259C952BBE7F8E26C /* LazyImage+Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Network.swift"; path = "Library/LazyImage+Network.swift"; sourceTree = "<group>"; };
+		33D438DCEACE698B93195A6E13BA8FA8 /* Pods-PokemonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokemonTests-dummy.m"; sourceTree = "<group>"; };
+		34C60D841A023A9BBE10A2F300B65E9E /* LazyImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyImage-dummy.m"; sourceTree = "<group>"; };
+		4E05782DA6FB7E4E7B9A150FA36A0DC1 /* Pods-Pokemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA7C42993446324DC632A84D1C56982 /* Pods-PokemonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PokemonTests.modulemap"; sourceTree = "<group>"; };
+		55AD72B9B0A3F0CE757785484C01D280 /* Pods-PokemonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemonTests.release.xcconfig"; sourceTree = "<group>"; };
+		70465CAE069C645A604AC789D150B856 /* LazyImage+Resizing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Resizing.swift"; path = "Library/LazyImage+Resizing.swift"; sourceTree = "<group>"; };
+		8562EDA7CDCD29857B27CE2B72049588 /* LazyImage+Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Storage.swift"; path = "Library/LazyImage+Storage.swift"; sourceTree = "<group>"; };
+		91B21EC3B1380B38C69211808D760C7E /* Pods-Pokemon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Pokemon"; path = "libPods-Pokemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BE0202CDFAC55725B91C6825E5D8B1 /* Pods-Pokemon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokemon-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3D01EEF870503889386FC9E3B615B4B /* LazyImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImageView.swift; path = Library/LazyImageView.swift; sourceTree = "<group>"; };
+		B14C825DC26F8966A46787F303941284 /* Pods-Pokemon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokemon-dummy.m"; sourceTree = "<group>"; };
+		B1DD1D784E405E84CECD59E6B4578B0C /* LazyImage+Loader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Loader.swift"; path = "Library/LazyImage+Loader.swift"; sourceTree = "<group>"; };
+		BE8386C7B47C80DA555B7E755F6EDEA7 /* Pods-PokemonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokemonTests-umbrella.h"; sourceTree = "<group>"; };
+		C5D2671C50CBB9E9EB29E1C0AE608BDA /* Pods-Pokemon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pokemon.modulemap"; sourceTree = "<group>"; };
+		CADA7B2F38797EF3702878F6C282B2DA /* Pods-Pokemon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokemon-umbrella.h"; sourceTree = "<group>"; };
+		CF82D0AD31B4485AFB561D8F54204501 /* Pods-PokemonTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-PokemonTests"; path = "libPods-PokemonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00ABC2F70A71B7EC0467AEC9C43F0DA /* LazyImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyImage.debug.xcconfig; sourceTree = "<group>"; };
+		DD1BD9419F83BEB69275155FD2A2FDEB /* Pods-Pokemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon.release.xcconfig"; sourceTree = "<group>"; };
+		ED8D18BA073732F7F829CB031B51AEDE /* LazyImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImage.swift; path = Library/LazyImage.swift; sourceTree = "<group>"; };
+		F3C8F20B647FA0EA95C59FB3FCE19CCC /* LazyImage+Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Error.swift"; path = "Library/LazyImage+Error.swift"; sourceTree = "<group>"; };
+		F563263EEA2995B1797C3EA38E91E0DB /* LazyImage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LazyImage; path = libLazyImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AE529DA83F72284928A05BD4544D01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7148A081B083CA0415F4857A8B5CD45E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93440E7A822910FDC41A6179EDE1EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BBF8A3952D27413C2597379C6316259 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77C2EB9E189D72E58ABDBE8DC040567 /* Pods-Pokemon */,
+				370C96B63832BDDC2E3BC38988C6A251 /* Pods-PokemonTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2EAC4D42342B64C4C758DE1C28B5B54B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57160385363A110B6C3E23ABA1C8A418 /* LazyImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		370C96B63832BDDC2E3BC38988C6A251 /* Pods-PokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA7C42993446324DC632A84D1C56982 /* Pods-PokemonTests.modulemap */,
+				204E82BB2FDB70F7773E476DE48C1BEA /* Pods-PokemonTests-acknowledgements.markdown */,
+				08DDA9BCBBB864E2A0EB624B07A163A0 /* Pods-PokemonTests-acknowledgements.plist */,
+				33D438DCEACE698B93195A6E13BA8FA8 /* Pods-PokemonTests-dummy.m */,
+				BE8386C7B47C80DA555B7E755F6EDEA7 /* Pods-PokemonTests-umbrella.h */,
+				2B3A2A0EC66BE1B54B6C885B35BACEE6 /* Pods-PokemonTests.debug.xcconfig */,
+				55AD72B9B0A3F0CE757785484C01D280 /* Pods-PokemonTests.release.xcconfig */,
+			);
+			name = "Pods-PokemonTests";
+			path = "Target Support Files/Pods-PokemonTests";
+			sourceTree = "<group>";
+		};
+		57160385363A110B6C3E23ABA1C8A418 /* LazyImage */ = {
+			isa = PBXGroup;
+			children = (
+				ED8D18BA073732F7F829CB031B51AEDE /* LazyImage.swift */,
+				F3C8F20B647FA0EA95C59FB3FCE19CCC /* LazyImage+Error.swift */,
+				B1DD1D784E405E84CECD59E6B4578B0C /* LazyImage+Loader.swift */,
+				33C6BE9DCCD0042259C952BBE7F8E26C /* LazyImage+Network.swift */,
+				70465CAE069C645A604AC789D150B856 /* LazyImage+Resizing.swift */,
+				8562EDA7CDCD29857B27CE2B72049588 /* LazyImage+Storage.swift */,
+				A3D01EEF870503889386FC9E3B615B4B /* LazyImageView.swift */,
+				6BEC12D4ED89DAC48C35292C891D3389 /* Support Files */,
+			);
+			name = LazyImage;
+			path = LazyImage;
+			sourceTree = "<group>";
+		};
+		6BEC12D4ED89DAC48C35292C891D3389 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				126A168958C9FA4B4B011BDA7E3C8C5E /* LazyImage.modulemap */,
+				34C60D841A023A9BBE10A2F300B65E9E /* LazyImage-dummy.m */,
+				2CCBD34B975539BC8762AB9232A8FDB2 /* LazyImage-prefix.pch */,
+				33B1ED03C76785708966480280B13E15 /* LazyImage-umbrella.h */,
+				D00ABC2F70A71B7EC0467AEC9C43F0DA /* LazyImage.debug.xcconfig */,
+				2919B0601BA2DA8B1A343914C12EE334 /* LazyImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LazyImage";
+			sourceTree = "<group>";
+		};
+		819F30B769C956FD2E2E0F1E870315F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F563263EEA2995B1797C3EA38E91E0DB /* LazyImage */,
+				91B21EC3B1380B38C69211808D760C7E /* Pods-Pokemon */,
+				CF82D0AD31B4485AFB561D8F54204501 /* Pods-PokemonTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77C2EB9E189D72E58ABDBE8DC040567 /* Pods-Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2671C50CBB9E9EB29E1C0AE608BDA /* Pods-Pokemon.modulemap */,
+				0F5874581EAE2CACE58BEBCB74797050 /* Pods-Pokemon-acknowledgements.markdown */,
+				A1BE0202CDFAC55725B91C6825E5D8B1 /* Pods-Pokemon-acknowledgements.plist */,
+				B14C825DC26F8966A46787F303941284 /* Pods-Pokemon-dummy.m */,
+				CADA7B2F38797EF3702878F6C282B2DA /* Pods-Pokemon-umbrella.h */,
+				4E05782DA6FB7E4E7B9A150FA36A0DC1 /* Pods-Pokemon.debug.xcconfig */,
+				DD1BD9419F83BEB69275155FD2A2FDEB /* Pods-Pokemon.release.xcconfig */,
+			);
+			name = "Pods-Pokemon";
+			path = "Target Support Files/Pods-Pokemon";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2EAC4D42342B64C4C758DE1C28B5B54B /* Pods */,
+				819F30B769C956FD2E2E0F1E870315F9 /* Products */,
+				1BBF8A3952D27413C2597379C6316259 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01A05A470060ED94CED6F0098A1AF1F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76C9B338BC12144CEC1CCC44EB4F380 /* Pods-Pokemon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951422F2F41B18B2A73C4B84EF2A4C8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43E7A8B185AE01B841176F0CCB60116 /* LazyImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA152068608B3A66D469AAAE4539443A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0938560C3E2927BE8462042625ADBB /* Pods-PokemonTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		570C8AC6A333757681FE1F55C282E7E3 /* Pods-PokemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BA3F286EE3C9C1DA3E3644CBF25329 /* Build configuration list for PBXNativeTarget "Pods-PokemonTests" */;
+			buildPhases = (
+				DA152068608B3A66D469AAAE4539443A /* Headers */,
+				046C71C12B97E53208280F9F481239F4 /* Sources */,
+				0AE529DA83F72284928A05BD4544D01A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2C41A4DC175D55318CACC462556001 /* PBXTargetDependency */,
+			);
+			name = "Pods-PokemonTests";
+			productName = "Pods-PokemonTests";
+			productReference = CF82D0AD31B4485AFB561D8F54204501 /* Pods-PokemonTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		694DC1ED7D202F62DA6DF98F6A6CEA90 /* LazyImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C7071250A6CC0861EE0F408C10B6C7 /* Build configuration list for PBXNativeTarget "LazyImage" */;
+			buildPhases = (
+				951422F2F41B18B2A73C4B84EF2A4C8B /* Headers */,
+				7D5AE2FB8F9CA42091F19AC4C0FA8D2B /* Sources */,
+				7148A081B083CA0415F4857A8B5CD45E /* Frameworks */,
+				759B4FE43C3299392E019E2EC0BACA2D /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyImage;
+			productName = LazyImage;
+			productReference = F563263EEA2995B1797C3EA38E91E0DB /* LazyImage */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F195C337BAD879A9399A3C247E629CCA /* Pods-Pokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05EE1E15E5A5EC1DCD7508A3BDED453F /* Build configuration list for PBXNativeTarget "Pods-Pokemon" */;
+			buildPhases = (
+				01A05A470060ED94CED6F0098A1AF1F3 /* Headers */,
+				2142787900CB013239808CC5E39924FA /* Sources */,
+				C93440E7A822910FDC41A6179EDE1EF5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07B9E0DD46EFE222544B70585F1EC2C /* PBXTargetDependency */,
+			);
+			name = "Pods-Pokemon";
+			productName = "Pods-Pokemon";
+			productReference = 91B21EC3B1380B38C69211808D760C7E /* Pods-Pokemon */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 819F30B769C956FD2E2E0F1E870315F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				694DC1ED7D202F62DA6DF98F6A6CEA90 /* LazyImage */,
+				F195C337BAD879A9399A3C247E629CCA /* Pods-Pokemon */,
+				570C8AC6A333757681FE1F55C282E7E3 /* Pods-PokemonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		759B4FE43C3299392E019E2EC0BACA2D /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/LazyImage/LazyImage.modulemap",
+				"${PODS_ROOT}/Headers/Public/LazyImage/LazyImage-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/LazyImage-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LazyImage/LazyImage.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LazyImage/LazyImage-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046C71C12B97E53208280F9F481239F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE92F8257571B7EE952B18ACF1204F47 /* Pods-PokemonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2142787900CB013239808CC5E39924FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215B9B58A946DDA6BB783B5E86DA23F7 /* Pods-Pokemon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5AE2FB8F9CA42091F19AC4C0FA8D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35623BE56F65CE861FC8D672D8DB0299 /* LazyImage.swift in Sources */,
+				ACFAE3DE4E1B1648CF623F702FCA0B6D /* LazyImage+Error.swift in Sources */,
+				D96CC7802B2A12D1BA0A84CAB952CB52 /* LazyImage+Loader.swift in Sources */,
+				E834E97001A0F6EDC33893CC4B877F4F /* LazyImage+Network.swift in Sources */,
+				F225FA00C85F67C2F335389C9DD8A00A /* LazyImage+Resizing.swift in Sources */,
+				0500F54ED39402FCD0D09A7030E241D7 /* LazyImage+Storage.swift in Sources */,
+				AF79BC45636A535842D34267BE71226E /* LazyImage-dummy.m in Sources */,
+				E8AA93B4C9BEEA5510F19947DD90EABF /* LazyImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B2C41A4DC175D55318CACC462556001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyImage;
+			target = 694DC1ED7D202F62DA6DF98F6A6CEA90 /* LazyImage */;
+			targetProxy = F0BDEDFCD7E152DAA6FEF47774634876 /* PBXContainerItemProxy */;
+		};
+		D07B9E0DD46EFE222544B70585F1EC2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyImage;
+			target = 694DC1ED7D202F62DA6DF98F6A6CEA90 /* LazyImage */;
+			targetProxy = 7D436579DA7208CDCCD56A5AB5DD2FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11CF8714BA3B6E299F8E5277B7FEAA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AD72B9B0A3F0CE757785484C01D280 /* Pods-PokemonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokemonTests/Pods-PokemonTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B643FF6E02B99D2A129164A6CFDED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2919B0601BA2DA8B1A343914C12EE334 /* LazyImage.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LazyImage/LazyImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LazyImage/LazyImage.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LazyImage;
+				PRODUCT_NAME = LazyImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741665865780F9F2D48453BCACA1C332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00ABC2F70A71B7EC0467AEC9C43F0DA /* LazyImage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LazyImage/LazyImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/LazyImage/LazyImage.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LazyImage;
+				PRODUCT_NAME = LazyImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E931F7C048ED47DE1BA918B9510719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3A2A0EC66BE1B54B6C885B35BACEE6 /* Pods-PokemonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokemonTests/Pods-PokemonTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F1A761F44E4D17914A4F1A5DD50AD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E05782DA6FB7E4E7B9A150FA36A0DC1 /* Pods-Pokemon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon/Pods-Pokemon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7505FBB793B292EC397E576F1B3C567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1BD9419F83BEB69275155FD2A2FDEB /* Pods-Pokemon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon/Pods-Pokemon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05EE1E15E5A5EC1DCD7508A3BDED453F /* Build configuration list for PBXNativeTarget "Pods-Pokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A761F44E4D17914A4F1A5DD50AD6A /* Debug */,
+				E7505FBB793B292EC397E576F1B3C567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BA3F286EE3C9C1DA3E3644CBF25329 /* Build configuration list for PBXNativeTarget "Pods-PokemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E931F7C048ED47DE1BA918B9510719 /* Debug */,
+				11CF8714BA3B6E299F8E5277B7FEAA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C7071250A6CC0861EE0F408C10B6C7 /* Build configuration list for PBXNativeTarget "LazyImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741665865780F9F2D48453BCACA1C332 /* Debug */,
+				6B643FF6E02B99D2A129164A6CFDED8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
